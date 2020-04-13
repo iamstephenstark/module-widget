@@ -1,4 +1,4 @@
-# module-start
+# module-widget
 Basic Magento 2 Widget Module
 
 This is just the minimum required to create a widget module.
