@@ -1,0 +1,21 @@
+{
+    "name": "iamstephenstark/module-widget",
+    "description": "Basic Magento 2 Widget Module",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "php": "~7.1.0|~7.2.0|~7.3.0",
+        "module-widget": "*"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "IAmStephenStark\\Widget\\": ""
+        }
+    }
+}
